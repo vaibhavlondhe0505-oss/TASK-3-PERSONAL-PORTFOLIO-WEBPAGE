@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Muwaz Khan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <style>
+        /* Optional Enhancement */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">Muwaz<span> Khan</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home container">
+            <div class="intro">
+                <h1>Hi, I'm <span>Muwaz Khan</span></h1>
+                <p>A passionate <strong>Software Developer</strong> specializing in web development, AI integration, and cloud-based solutions.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            <img src="images/profile.jpg" alt="Muwaz Khan" class="hero-img" loading="lazy">
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/profile2.jpg" alt="Portrait of Muwaz Khan" class="profile-img" loading="lazy">
+                <div class="about-text">
+                    <p>I'm a dedicated Computer Science student and software developer from Pakistan with a deep interest in frontend technologies, AI systems, and cloud computing. My goal is to create scalable, user-friendly solutions that solve real-world problems.</p>
+                    <p>Currently pursuing a <strong>Bachelor’s in Computer Science</strong> from <strong>COMSATS University Islamabad</strong>.</p>
+                    <a href="files/Muwaz_Khan_Resume.pdf" class="btn" download>Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Logo" loading="lazy">
+                    <p>HTML5</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Logo" loading="lazy">
+                    <p>CSS3</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo" loading="lazy">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo" loading="lazy">
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo" loading="lazy">
+                    <p>Java</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Logo" loading="lazy">
+                    <p>MySQL</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo" loading="lazy">
+                    <p>GitHub</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates container">
+            <h2>Certificates</h2>
+            <div class="certificate-grid">
+                <article class="certificate-item">
+                    <img src="images/frontend-cert.jpg" alt="Frontend Certificate" loading="lazy">
+                    <h3>Introduction to Frontend Development</h3>
+                    <p>Issued by Meta on Coursera — covers HTML, CSS, and responsive design fundamentals.</p>
+                </article>
+                <article class="certificate-item">
+                    <img src="images/genai-cert.jpg" alt="Generative AI Certificate" loading="lazy">
+                    <h3>Introduction to Generative AI</h3>
+                    <p>Issued by Google Cloud — explores large language models, diffusion models, and AI applications.</p>
+                </article>
+                <article class="certificate-item">
+                    <img src="images/ccpp-cert.jpg" alt="C/C++ Certificate" loading="lazy">
+                    <h3>Programming in C and C++</h3>
+                    <p>Issued by Coursera — strong foundation in object-oriented and procedural programming.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project-item">
+                    <img src="images/portfolio-project.jpg" alt="Portfolio Website Screenshot" loading="lazy">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive portfolio built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+                    <a href="https://github.com/muwazkhan/portfolio" class="btn" target="_blank">View Project</a>
+                </article>
+
+                <article class="project-item">
+                    <img src="images/weather-app.jpg" alt="Weather App Screenshot" loading="lazy">
+                    <h3>Weather App</h3>
+                    <p>Built using Python and OpenWeather API. Displays real-time weather and forecasts for any location.</p>
+                    <a href="https://github.com/muwazkhan/weather-app" class="btn" target="_blank">View Project</a>
+                </article>
+
+                <article class="project-item">
+                    <img src="images/chatbot.jpg" alt="Chatbot Screenshot" loading="lazy">
+                    <h3>AI Chatbot</h3>
+                    <p>A simple AI-powered chatbot developed using Python and NLP libraries for natural conversation flow.</p>
+                    <a href="https://github.com/muwazkhan/chatbot" class="btn" target="_blank">View Project</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact container">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name" class="visually-hidden">Your Name</label>
+                    <input id="name" type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="visually-hidden">Your Email</label>
+                    <input id="email" type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="visually-hidden">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn" onclick="alert('Thank you! Your message has been sent.')">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/muwazkhan" target="_blank" aria-label="LinkedIn Profile">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Logo" loading="lazy">
+                </a>
+                <a href="https://github.com/muwazkhan" target="_blank" aria-label="GitHub Profile">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo" loading="lazy">
+                </a>
+                <a href="mailto:muwazk67@gmail.com" aria-label="Email Muwaz Khan">
+                    <img src="images/email-icon.png" alt="Email Icon" loading="lazy">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; 2025 Muwaz Khan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
