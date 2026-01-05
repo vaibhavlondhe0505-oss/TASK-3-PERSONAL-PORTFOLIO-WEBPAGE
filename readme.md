@@ -92,10 +92,11 @@ A Completion Certificate will be issued on the internship end date, subject to s
 
 👨‍💻 Developer Information
 
-Name: Muwaz Khan
+Name: Vaibhav Londhe
 Role: Front-End Developer
 Internship: CODTECH
-Intern ID – B01FAAF2AC202E65
+Intern ID – 7D7CB8A382C2A05E
+
 
 
 
